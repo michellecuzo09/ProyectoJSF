@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+    <body>
+
+        <ui:composition template="./base.xhtml">
+
+            <ui:define name="top">
+                <h1>GESTION EMPLEADOS</h1>
+                <style>
+                    h1 {
+                        color: #333;
+                        text-align: center;
+                        padding: 40px;
+                    }
+
+                    .page-title {
+                        color: #007bff;
+                        font-size: 24px;
+                        margin-bottom: 10px;
+                    }
+                    
+                </style>
+            </ui:define>
+
+            <ui:define name="left">
+                <iframe src="index.xhtml" height="400px" width="150px"></iframe>
+            </ui:define>
+
+            <ui:define name="right">
+                right
+            </ui:define>
+
+            <ui:define name="content">
+                <iframe name="prin" height="400px" width="1280px"/>
+            </ui:define>
+
+            <ui:define name="bottom">
+                <img src="https://www.tecazuay.edu.ec/wp-content/uploads/2023/07/LOGO-RECTANGULAR_SIN-FONDO.png" alt="Image" width="500" height="100" style="display: block; margin: auto;"></img>
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>
